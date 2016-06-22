@@ -7,7 +7,7 @@ class profiles::foo_bar_com {
 	  docroot => '/var/www/html/foo_bar_com',
 	}
 
-	vcsrepo { '/var/www/html/foor_bar_com':
+	vcsrepo { '/var/www/html/foo_bar_com':
 	  ensure   => 'present',
 	  provider => 'git',
 	  source   => 'git://github.com/grahamswilson/web_content.git',

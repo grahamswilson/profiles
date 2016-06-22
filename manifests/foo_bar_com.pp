@@ -1,6 +1,6 @@
 class profiles::foo_bar_com {
 
-	include [ '::profiles:apache' ]
+	include [ '::profiles::apache' ]
 
 	apache::vhost {'foo.bar.com':
 	  port    => '8080',

@@ -10,7 +10,7 @@ class profiles::foo_bar_com {
 	vcsrepo { '/var/www/html/foo_bar_com':
 	  ensure   => 'present',
 	  provider => 'git',
-	  source   => 'git://github.com/grahamswilson/web_content.git',
+	  source   => 'https://github.com/grahamswilson/web_content.git',
 	  require  => Apache::Vhost['foo.bar.com'],
 	}
 

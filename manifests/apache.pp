@@ -1,5 +1,5 @@
 class profiles::apache {
 
-	class {'::cpache': }
+	class {'::apache': }
 
 }
